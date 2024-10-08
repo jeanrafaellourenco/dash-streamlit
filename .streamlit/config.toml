@@ -1,0 +1,6 @@
+[theme]
+base="dark"  # Ativa o modo escuro
+primaryColor="#ff4b4b"  # Define a cor primária (escolha o código hex de sua preferência)
+backgroundColor="#0e1117"  # Cor de fundo (para personalizar ainda mais o modo escuro)
+secondaryBackgroundColor="#262730"  # Cor de fundo secundária (opcional)
+textColor="#ffffff"  # Cor do texto no modo escuro (branco, por exemplo)
