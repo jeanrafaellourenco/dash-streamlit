@@ -63,7 +63,7 @@ docker build -t dash-streamlit .
 Depois de criar o container, execute-o com o seguinte comando:
 
 ```bash
-docker run -p 8501:8501 --name dash-streamlit --rm dash-streamlit
+docker run -v ./app:/app/app -p 8501:8501 --name dash-streamlit --rm dash-streamlit
 ```
 Isso iniciará a aplicação no endereço http://localhost:8501.
 
